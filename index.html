@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Kulkarni -Personal Portfolio</title>
+    <script src="./particles.js"></script>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./images/favicon.ico">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"type='text/css'>
+</head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">&lt;Aditi_Kulkarni/&gt;</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#resume" class="navbar__links" id="resume-page">Experience</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#stack" class="navbar__links" id="stack-page">Tech Stack</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Contents -->
+    <div class="container">
+        <div id="particles-js"></div>
+        <section class="home__section" id="home">  
+            
+            <h1>
+                Hello! <span class="wave">👋</span><br>
+                 I am Aditi Kulkarni.
+            </h1>
+            <p>
+                Undergrad student pursuing B.Tech in Electronics and Telecommunication with minor specialization in AIML.<br>
+                Passionate about all things creative!<br>
+                Web Development and UI/UX enthusiast.<br>
+            </p>
+
+            <div class="social__icons">
+                <a href=https://www.linkedin.com/in/aditi-kulkarni-0b3803198 class="icons" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                <a href=https://github.com/Kulkarni-Aditi class="icons" target="_blank"> <i class="fa fa-github-square fa-3x"></i></a>
+                <a href=mailto:aditikulkarni.1710@gmail.com class="icons" target="_blank"><i class="fa fa-envelope fa-3x" ></i></a>
+                <a href=https://www.instagram.com/aditi.meraki class="icons" target="_blank"><i class="fa fa-instagram fa-3x" ></i></a>
+            </div>
+        </section>
+        
+    </div>
+
+    <section class="about__section" id="about"> 
+        <div class="about__container">
+            <div class="about__card">
+                <h1>About Me</h1><br><br>
+                <p> Hi, I'm Aditi !  <span style="font-size: 90%; font-style: italic;"> cue that song.</span><br>
+                    I am a student of Electronics and Telecommunication Engineering, currently in my second year.
+                    My core competencies lie in the Data Science domain but have recently found myself exploring
+                    and loving Web Development. As a part of my minor specialization, I have succesfully completed extra 
+                    credits for Applied Statistics, Machine Learning, Deep Learning and NLP. I also have a good understanding of data structures and algorithms. 
+                    I am a dedicated and hardworking individual with a knack for problem solving and 
+                    am constantly trying to upskill myself. Painting makes up a huge chunk of my unwinding regime <span style="font-style: italic;">(shameless plug:
+                    follow @aditi.meraki on instagram).</span> I enjoy reading books across different genres 
+                    and am a film and television fanatic.<br>
+                    <br>
+                    <h2>Hobbies and Interests</h2>
+                </p>
+            </div>
+
+            <div class="infographics" >
+                <table >
+                    <br>
+                    <tr>
+                        <td><i class="fa fa-map-marker fa-2x fa-fw" aria-hidden="true"></i></td>
+                        <td> Mumbai, India</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-graduation-cap fa-2x fa-fw" aria-hidden="true"></i></td>
+                        <td> Dwarkadas J. Sanghvi College of Engineering</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-volume-up fa-2x fa-fw" aria-hidden="true"></i></td>
+                        <td> English, Hindi, and Marathi</td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+
+        <div class="hobbies__container">
+            <div class="icon__wrapper">
+                <i class="fa fa-paint-brush fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="icon__wrapper">
+                <i class="fa fa-plane fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="icon__wrapper">
+                <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="icon__wrapper">
+                <i class="fa fa-film fa-3x" aria-hidden="true"></i></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume__section" id="resume">
+        <div class="toggle__bar">
+            <button class="toggle__btn active__btn " id="edu__btn"><h1>Education</h1></button>
+            <button class="toggle__btn" id="exp__btn"><h1>Experience</h1></button>
+        </div>
+
+        <div class="resume__container">
+            <div class="timeline" id="education">
+                <ul>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2019 - Present</h3>
+                            <h1>D.J. Sanghvi COE</h1>
+                            <p>CGPA (Till SEM III : 9.73)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2017-2019</h3>
+                            <h1>Rao IIT Junior College</h1>
+                            <p>HSC Board (Science Stream) : 86.15%</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">Batch of 2017</h3>
+                            <h1>Bombay Cambridge International School</h1>
+                            <p>SSC Board : 98.40%</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="timeline noshow" id="experience">
+                <ul>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2020 - Present</h3>
+                            <h1>DJS Robocon</h1>
+                            <p>Coding Team Member- Experience working with embedded programming, 
+                                Object Detection using Tensorflow API and OpenCV.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2019-Present</h3>
+                            <h1>DJ LITSOC</h1>
+                            <p>Head of Creatives department : responsible for
+                                overseeing content curation for our socials.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2020-2021</h3>
+                            <h1>AIESEC in Mumbai</h1>
+                            <p>Brand Manager - Lead a team of 4 individuals. Responsible for B2C Marketing and Branding for the Local Chapter.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech__section" id="stack">
+       <div class="tech__container">
+           <h1>Programming Languages</h1>
+            <ul class="tech__icons">
+                <li class="icon__item"><i class="devicon-c-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-cplusplus-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-python-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-html5-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-css3-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-javascript-plain"></i></li>
+            </ul>
+       </div>
+    <div class="tech__container">
+        <h1>Frameworks, Tools and Technologies</h1>
+        <ul class="tech__icons">
+            <li class="icon__item"><i class="devicon-react-original"></i></li>
+            <li class="icon__item"><i class="devicon-mysql-plain-wordmark"></i></li>
+            <li class="icon__item"><span class="iconify" data-icon="simple-icons:tensorflow" data-inline="false"></span></li>
+            <li class="icon__item"><i class="devicon-git-plain-wordmark"></i></li>
+            <li class="icon__item"><i class="devicon-photoshop-plain"></i></li>
+            <li class="icon__item"><i class="devicon-figma-plain"></i></li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="sticky__footer">
+      <p>Made with <span style="color:#8b72af;">&#x2764;</span> by Aditi </p>  
+    </section>
+    
+
+       <script>
+           // particle.js config
+            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+            particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+                console.log('callback - particles.js config loaded');
+            });
+       </script>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
